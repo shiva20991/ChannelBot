@@ -42,7 +42,7 @@ async def modify(_, msg: Message):
                     caption += '\n\n' + msg.text.markdown
             elif position == 'below':
                 if msg.caption:
-                    <b>caption</b> = msg.caption.markdown + '\n\n' + caption
+                    caption = msg.caption.markdown + '\n\n' + caption
                 elif msg.text:
                     caption = msg.text.markdown + '\n\n' + <b>caption<b/>
             if webpage_preview:
