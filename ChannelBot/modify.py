@@ -44,7 +44,7 @@ async def modify(_, msg: Message):
                 if msg.caption:
                     caption = msg.caption.markdown + '\n\n' + caption
                 elif msg.text:
-                    caption = msg.text.markdown + '\n\n' + <b>caption<b/>
+                    caption = msg.text.markdown + '\n\n' + caption
             if webpage_preview:
                 disable_webpage_preview = False
             else:
